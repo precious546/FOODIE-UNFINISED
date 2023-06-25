@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+.container{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    background-image: url(images/jason-briscoe-KTrov7eujms-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+}
+header{
+    background-color: orange;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav ul a{
+    text-decoration: none;
+    color: black;
+    padding-left: 35px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+header nav ul a:hover{
+    color: red;
+}
+#main{
+    background-color: orange;
+    width: 40%;
+    margin-left: 30%;
+    padding: 10px 15px 10px 15px;
+    opacity: 0.6;
+}
+#main h1{
+    font-size: 70px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+#main h2{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+#main p{
+    font-size: 18px;
+}
+.images{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    /* margin-bottom: 40px; */
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 14%;
+    position: relative;
+    color: orange;
+    line-height: 2.5;
+}
+#box{
+    margin-left: 22%;
+}
+img{
+    height: 300px;
+    width: 330px;
+}
+.img1{
+    position: absolute;
+    bottom: 110px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.read{
+    position: absolute;
+    bottom: 70px;
+    border: 10px;
+    border-bottom: 2px solid orange;
+    padding-right: 10px;
+    border-radius: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    
+}
+
+.parent{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 40px;
+    line-height: 1.5;
+
+}
+#child1{
+    background-color: orange;
+    width: 93%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+.branch1 h1{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+
+.branch2 form input{
+    background-color: orange;
+    padding: 13px 50px 13px 50px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+#button1{
+    background-color: orangered;
+    padding: 13px 25px 13px 25px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    margin-left: -20px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.main{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    padding-bottom: 25px;
+    gap: 5%;
+    position: relative;
+}
+.ready{
+    position: absolute;
+    /* border: 10px; */
+    border-bottom: 2px solid black;
+    border-radius: 4px;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.child2 img{
+    height: 300px;
+    width: 340px;
+    margin-left: 40px;
+
+}
+.child3{
+    margin-top: 20px;
+}
+
+.child3 p{
+ margin-top: 15px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 18px;
+
+}
+#image33 img{
+    height: 300px;
+    width: 260px;
+}
+.section4{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 360px 360px 270px;
+    padding-bottom: 25px;
+    gap: 5%;
+    position: relative;
+}
+
+.chef{
+    text-align: center;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chef h1{
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 30px;
+}
+.chef h4{
+    text-transform: capitalize;
+}
+.chef h5{
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.section5{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 360px 360px 300px;
+    padding-bottom: 25px;
+    gap: 5%;
+    position: relative;
+}
+.f1{
+    display: flex;
+    margin-right: 30px;
+}
+.f1 h5{
+    
+}
+.f1 img{
+    height: 120px;
+    width: 140px;
+}
